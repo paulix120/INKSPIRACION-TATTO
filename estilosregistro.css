@@ -1,0 +1,73 @@
+.principalregistro{
+
+    background-color: rgb(136, 102, 199);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro{
+
+    background:linear-gradient(rgb(134, 59, 134),rgb(78, 10, 92));
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 320px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px rgb(34, 40, 92);
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+
+}
+
+
+
+
+.logoregistro{
+
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+.cajatexto{
+
+    font-family: 'Courier New', Courier, monospace;
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255);
+    color:black ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+   
+}
+.botonRegistro{
+
+    font-family:'Times New Roman', Times, serif;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(156, 57, 151);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+
+ .botonRegistro:hover{
+    
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(37, 2, 59);
+        font-size: 30px;
+        border: 1px solid rgb(59, 4, 61);
+        padding: 10px;
+
+ }
